@@ -1,0 +1,43 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.pagination-btn {
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.pagination-main-container {
+  position: sticky;
+  bottom: 0;
+  background: white;
+  border-top: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.pagination-arrow-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+.disabled {
+  cursor: not-allowed;
+}
+
+.ellipsis {
+  margin: 0 5px;
+}
+
+.page-offset-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

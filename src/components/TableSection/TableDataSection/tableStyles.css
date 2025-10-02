@@ -1,0 +1,61 @@
+/* Container background */
+.table-container {
+  background: white;
+}
+
+/* Wrapper for relative positioning */
+.table-wrapper {
+  position: relative;
+}
+
+/* Table full width, collapse borders, min width */
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+/* Sticky header */
+.products-thead {
+  position: sticky;
+  top: 122px;
+  background: white;
+  z-index: 2;
+}
+
+/* Table header cells */
+.products-th {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Table body cells */
+.products-td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* "No rows" message */
+.no-rows {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+
+/* Loading spinner container */
+.loading-container {
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+/* Product link color */
+.product-link {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.product-link:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.product-details-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info-container {
+  margin-top: 20px;
+}
+
+.back-link-container {
+  margin-top: 20px;
+}

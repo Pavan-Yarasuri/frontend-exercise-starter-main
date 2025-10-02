@@ -1,0 +1,41 @@
+/* Toolbar main container */
+.toolbar-container {
+  position: sticky; /* keep the toolbar pinned to the top */
+  top: 0;
+  background: white;
+  z-index: 10;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+}
+
+/* Toolbar heading */
+.toolbar-heading {
+  margin-top: 0;
+}
+
+/* Toolbar flex container */
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Search input container */
+.toolbar-search {
+  display: flex;
+  flex: 1;
+}
+
+/* Search input field */
+.toolbar-input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Clear filters button */
+.clear-filters-button {
+  cursor: pointer;
+}
